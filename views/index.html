@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The World Of Wallace</title>
+	<link rel='stylesheet' href='/styles/styles.css'></link>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src='/scripts/scripts.js'></script>
+</head>
+<body>
+	
+<div class='alButton'>
+		<script id='classics' type='text/x-handlebars-template'>
+             <div class='albums'>
+			     {{#each favoriteAlbums}}
+			 
+             <div class='albumnames'>{{albumTitle}} ({{artist}})</div>
+             {{/each}}
+             <button class='albutton'>< {{albumTitle}} {{artist}}</button>
+
+             </div>
+             </div>
+             </script>
+        </div>
+</body>
+</html>
